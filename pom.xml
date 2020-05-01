@@ -16,6 +16,10 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+	  <sonar.projectKey>fransvanbuul_demo1</sonar.projectKey>
+	  <sonar.organization>fransvanbuul</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	  <sonar.login>982c2967c174275c89944b99910711884efaddfe</sonar.login>
 	</properties>
 
 	<dependencies>
