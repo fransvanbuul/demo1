@@ -16,10 +16,10 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-	  <sonar.projectKey>fransvanbuul_demo1</sonar.projectKey>
-	  <sonar.organization>fransvanbuul</sonar.organization>
-	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	  <sonar.login>982c2967c174275c89944b99910711884efaddfe</sonar.login>
+   	    <sonar.projectKey>fransvanbuul_demo1</sonar.projectKey>
+	    <sonar.organization>fransvanbuul</sonar.organization>
+	    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	    <sonar.login>982c2967c174275c89944b99910711884efaddfe</sonar.login>
 	</properties>
 
 	<dependencies>
@@ -31,22 +31,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 	</dependencies>
 
